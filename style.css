@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 70%;
+    width: 75%;
     margin-top: 40px;
 }
 
@@ -31,19 +31,25 @@ h1{
     float: left;
 }
 
-.clear-fix{
+.clear-fix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.clear-fix div{
+.clear-fix > div{
     height: 120px;
+    margin: 18px;
     background-color: black;
+}
+
+div img{
+    width: calc(100% / 3);
 }
 
 .Marco h2{
     float: right;
+
     color: white;
 }
 
