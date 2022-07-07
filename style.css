@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 75%;
+    width: 80%;
     margin-top: 40px;
 }
 
@@ -31,6 +31,10 @@ h1{
     float: left;
 }
 
+.clear-fix{
+    margin-top: 60px;
+}
+
 .clear-fix::after{
     content: "";
     display: table;
@@ -38,28 +42,33 @@ h1{
 }
 
 .clear-fix > div{
-    height: 120px;
-    margin: 18px;
+    width: 400px;
+    height: 135px;
+    margin: 2px;
     background-color: black;
 }
 
 div img{
     width: calc(100% / 3);
+    float: left;
 }
 
-.Marco h2{
-    float: right;
-
+.first{
+    float: left;
+    padding: 7%;
     color: white;
 }
 
-.Laura h2{
+.second{
     float: right;
+    padding: 7%;
     color: white;
 }
 
-.Giorgio h2{
+.third{
     float: right;
+    padding: 7%;
     color: white;
 }
 
+/*/team*/
