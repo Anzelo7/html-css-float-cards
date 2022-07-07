@@ -18,6 +18,7 @@ header{
 
 h1{
     color: rgb(235, 48, 157);
+    margin-bottom: 60px;
 }
 
 /*/title*/
@@ -33,6 +34,7 @@ h1{
 
 .clear-fix{
     margin-top: 60px;
+    height: 100%;
 }
 
 .clear-fix::after{
@@ -42,9 +44,9 @@ h1{
 }
 
 .clear-fix > div{
-    width: 400px;
+    width: 380px;
     height: 135px;
-    margin: 2px;
+    margin: 40px 12px;
     background-color: black;
 }
 
@@ -60,15 +62,14 @@ div img{
 }
 
 .second{
-    float: right;
+    float: left;
     padding: 7%;
     color: white;
 }
 
 .third{
-    float: right;
+    margin-left: 120px;
     padding: 7%;
     color: white;
 }
-
 /*/team*/
