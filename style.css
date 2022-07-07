@@ -11,6 +11,7 @@ body{
     margin-top: 40px;
 }
 
+/*title*/
 header{
     text-align: center;
 }
@@ -19,6 +20,9 @@ h1{
     color: rgb(235, 48, 157);
 }
 
+/*/title*/
+
+/*team*/
 .float-right{
     float: right;
 }
@@ -32,3 +36,24 @@ h1{
     display: table;
     clear: both;
 }
+
+.clear-fix div{
+    height: 120px;
+    background-color: black;
+}
+
+.Marco h2{
+    float: right;
+    color: white;
+}
+
+.Laura h2{
+    float: right;
+    color: white;
+}
+
+.Giorgio h2{
+    float: right;
+    color: white;
+}
+
