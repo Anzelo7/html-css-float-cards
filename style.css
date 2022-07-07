@@ -1,0 +1,21 @@
+/*css default*/
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.clear-fix{
+    content: "";
+    display: table;
+    clear: both;
+}
