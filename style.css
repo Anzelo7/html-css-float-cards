@@ -6,6 +6,19 @@
     font-family: 'Fredoka One', sans-serif;
 }
 
+body{
+    width: 70%;
+    margin-top: 40px;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: rgb(235, 48, 157);
+}
+
 .float-right{
     float: right;
 }
