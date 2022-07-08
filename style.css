@@ -68,8 +68,8 @@ div img{
 }
 
 .third{
-    margin-left: 120px;
-    padding: 7%;
+    float: left;
+    padding: 6%;
     color: white;
 }
 /*/team*/
