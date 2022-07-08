@@ -24,9 +24,6 @@ h1{
 /*/title*/
 
 /*team*/
-.float-right{
-    float: right;
-}
 
 .float-left{
     float: left;
@@ -35,6 +32,7 @@ h1{
 .clear-fix{
     margin-top: 60px;
     height: 100%;
+
 }
 
 .clear-fix::after{
